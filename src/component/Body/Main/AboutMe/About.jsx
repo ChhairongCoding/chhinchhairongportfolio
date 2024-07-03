@@ -1,5 +1,6 @@
 import "./About.css";
 import CardRight from "../../Card Right/CardRight";
+
 ("./CardRight");
 const Main = () => {
   const Right = [

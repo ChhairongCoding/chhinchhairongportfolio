@@ -1,5 +1,5 @@
 import "./Body.css";
-import Left from "./Main/Contain Left/Left";
+import Left from "./Main/ContainLeft/Left";
 import Right from "./Main/Right/Right";
 import About from "./Main/AboutMe/About";
 import { DiCss3, DiHtml5, DiJavascript, DiReact } from "react-icons/di";
