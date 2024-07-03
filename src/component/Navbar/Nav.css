@@ -1,0 +1,68 @@
+.contain {
+  position: relative;
+  z-index: 3;
+  width: 80%;
+  margin: 0px auto;
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+  border-radius: 3px;
+  position: sticky;
+  top: -10px;
+}
+
+.style:nth-child(1) {
+  background-color: #ffff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  left: -20px;
+  top: 30px;
+}
+.style:nth-child(2) {
+  background-color: #ffff;
+  width: 60px;
+  border-radius: 50%;
+  position: absolute;
+  height: 60px;
+  right: -30px;
+  bottom: 10px;
+}
+
+.nav {
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 50px;
+  margin-top: 20px;
+  position: sticky;
+  overflow: hidden;
+  top: 20px;
+  font-family: "Sansita", sans-serif;
+  background-color: rgba(43, 43, 43, 0.4);
+  align-content: center;
+  z-index: 2;
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+}
+
+.brand-name {
+  color: white;
+  font-size: 26px;
+  text-decoration: none;
+}
+
+.navBar ul {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+}
+
+.navBar ul li a {
+  font-size: 26px;
+  text-decoration: none;
+  color: #ffff;
+}

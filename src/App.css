@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(30, 30, 30);
+}
+
+.EffectBackground {
+  position: absolute;
+}
+
+.class {
+  background-size: cover;
+  background-color: rgba(128, 128, 128, 0.2);
+  height: 100vh;
+}
+
+.containNav {
+  position: relative;
+  position: sticky;
+  top: -15px;
+  z-index: 4;
+}
+
+.container {
+  height: auto;
+  padding: 0px;
+  position: relative;
+}
+
+.boxBack {
+  position: fixed;
+  position: absolute;
+  display: block;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  z-index: 0;
+  top: 100px;
+  left: 200px;
+  filter: blur(100px);
+}
+
+.boxBack:nth-child(5) {
+  display: block;
+  position: fixed;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(60, 121, 174, 0.5);
+}
+
+.boxBack:nth-child(2) {
+  position: fixed;
+  left: 600px;
+  width: 700px;
+  height: 700px;
+  background-color: rgba(158, 181, 202, 0.5);
+}
+.boxBack:nth-child(6) {
+  position: fixed;
+  top: 100px;
+  left: 10px;
+  width: 700px;
+  height: 700px;
+  background-color: rgba(60, 121, 174, 0.5);
+}
+
+.boxBack:nth-child(7) {
+  position: fixed;
+  top: -100px;
+  left: 0px;
+  width: 400px;
+  height: 400px;
+  background-color: rgba(158, 181, 202, 0.5);
+}
+
+.boxBack:nth-child(7) {
+  position: fixed;
+  top: -100px;
+  left: 1000px;
+  width: 400px;
+  height: 400px;
+  background-color: rgba(158, 181, 202, 0.5);
+}
+.boxBack:nth-child(8) {
+  position: fixed;
+  top: 100px;
+  left: 1000px;
+  width: 600px;
+  height: 600px;
+  background-color: rgba(60, 121, 174, 0.5);
+}
+
+.boxBack:nth-child(3) {
+  position: fixed;
+  top: 600px;
+  left: 200px;
+  width: 600px;
+  height: 600px;
+  background-color: rgba(158, 181, 202, 0.5);
+}
+
+.boxBack:nth-child(4) {
+  position: fixed;
+
+  top: 600px;
+  left: 700px;
+  width: 600px;
+  height: 600px;
+  background-color: rgba(60, 121, 174, 0.5);
+}
+
+.containNav {
+  width: 100%;
+  position: absolute;
+  position: fixed;
+  margin: 10px 0px 0px;
+}

@@ -1,0 +1,86 @@
+.background {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  z-index: 2;
+  margin: 0px auto;
+  align-items: center;
+}
+
+.technology {
+  width: 20%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  margin: 0px auto;
+  border-radius: 8px;
+  padding: 5px 0px;
+  opacity: 100%;
+  overflow: hidden;
+  position: relative;
+  bottom: 30px;
+}
+.marquee {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee-content {
+  display: flex;
+  animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-content > * {
+  margin-right: 20px; /* Adjust gap between items */
+}
+
+.clr-orage {
+  color: rgb(255, 111, 0);
+  opacity: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.clr-blue {
+  color: rgb(68, 115, 255);
+  opacity: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.clr-blueSea {
+  color: rgb(16, 230, 230);
+  transition: all 0.3s ease-in-out;
+  opacity: 100%;
+}
+
+.clr-yellow {
+  color: yellow;
+  transition: all 0.3s ease-in-out;
+}
+
+.clr-orage:hover {
+  scale: 1.1;
+}
+
+.clr-yellow:hover {
+  scale: 1.1;
+}
+
+.clr-blue:hover {
+  scale: 1.1;
+}
+
+.clr-blueSea:hover {
+  scale: 1.1;
+}

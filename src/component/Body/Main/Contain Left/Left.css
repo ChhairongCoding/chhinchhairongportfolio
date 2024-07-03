@@ -1,0 +1,35 @@
+.containLeft {
+  background-color: none;
+  width: 60%;
+  font-family: "Sansita", sans-serif;
+  font-size: 26px;
+  left: 100px;
+  text-transform: uppercase;
+  margin: 100px auto;
+  padding-left: 100px;
+}
+
+.containLeft .contain {
+  line-height: 40px;
+}
+.containLeft .contain h1 {
+  line-height: 50px;
+}
+
+.containLeft .contain h2 {
+  color: #f3f3f3;
+}
+
+.containLeft .contain h1 a {
+  color: #03b1fc;
+  text-decoration: none;
+  font-size: 56px;
+}
+.containLeft .contain p {
+  padding: 10px 0px 0px;
+  font-size: 16px;
+  line-height: 16px;
+  width: 92%;
+  text-align: justify;
+  color: #f3f3f3;
+}

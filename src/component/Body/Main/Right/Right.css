@@ -1,0 +1,27 @@
+.rightImg {
+  width: 40%;
+  position: relative;
+}
+
+.rightImg .box img {
+  width: 350px;
+  left: 10px;
+  top: 0px;
+  z-index: 1;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.box {
+  z-index: -1;
+  position: absolute;
+  border: 10px solid white;
+  overflow: hidden;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  bottom: -10rem;
+  left: 50px;
+
+  background-color: #03b1fc;
+}
