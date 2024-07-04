@@ -1,5 +1,5 @@
 import React from "react";
-import Contain from "./component/Contain";
+import Contain from "./Component/Contain";
 import "./App.css";
 const App = () => {
   return (
