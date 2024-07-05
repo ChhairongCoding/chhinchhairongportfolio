@@ -1,13 +1,11 @@
 .contain {
   position: relative;
   z-index: 3;
-  width: 80%;
+  width: 100%;
   margin: 0px auto;
   backdrop-filter: blur(10px);
   overflow: hidden;
   border-radius: 3px;
-  position: sticky;
-  top: -10px;
 }
 
 .style:nth-child(1) {
@@ -26,19 +24,19 @@
   position: absolute;
   height: 60px;
   right: -30px;
-  bottom: 10px;
+  bottom: 30px;
 }
 
 .nav {
   border-radius: 3px;
   display: flex;
   justify-content: space-between;
-  padding: 5px 50px;
-  margin-top: 20px;
+  padding: 10px 90px;
+  height: 60px;
   position: sticky;
   overflow: hidden;
   top: 20px;
-  font-family: "Sansita", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   background-color: rgba(43, 43, 43, 0.4);
   align-content: center;
   z-index: 2;
@@ -50,14 +48,22 @@
 }
 
 .brand-name {
+  align-content: center;
+  align-items: center;
   color: white;
-  font-size: 26px;
+  font-size: 36px;
   text-decoration: none;
 }
 
+.navBar {
+  align-items: center;
+  align-content: center;
+}
+
 .navBar ul {
+  align-content: center;
   display: flex;
-  gap: 16px;
+  gap: 26px;
   list-style: none;
 }
 
@@ -65,4 +71,9 @@
   font-size: 26px;
   text-decoration: none;
   color: #ffff;
+  transition: all 0.4s ease-in-out;
+}
+
+.navBar ul li a:hover {
+  color: #03b1fc;
 }
