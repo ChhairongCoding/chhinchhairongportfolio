@@ -14,9 +14,6 @@ const Contain = () => {
         <Body />
         <Effect />
       </div>
-      <div className="EffectBackground">
-        <Effect />
-      </div>
     </>
   );
 };
