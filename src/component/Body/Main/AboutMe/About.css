@@ -10,11 +10,39 @@
   width: 40%;
 }
 
-.about .boxImg img {
+.about .boxImg .backImg {
+  width: 350px;
+  height: 350px;
+  background-color: black;
   border: 2px solid black;
-  width: 250px;
+  bottom: 10px;
+  box-shadow: 0px 0px 1px black;
+  position: relative;
+}
+
+.about .boxImg .backImg img {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  left: 20px;
+  top: 20px;
 }
 
 .about .aboutContain {
   width: 60%;
+}
+
+.about .aboutContain h2 {
+  font: 46px "Bebas Neue";
+  color: #03b1fc;
+  text-align: center;
+  text-shadow: -3px 2px 5px black;
+}
+
+.about .aboutContain P {
+  font: 22px sans-serif;
+  color: #fefefe;
+  line-height: 22px;
+  text-align: justify;
 }

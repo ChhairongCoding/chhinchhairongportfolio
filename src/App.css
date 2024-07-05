@@ -9,10 +9,6 @@ body {
   background-color: rgb(30, 30, 30);
 }
 
-.EffectBackground {
-  position: absolute;
-}
-
 .class {
   background-size: cover;
   background-color: rgba(128, 128, 128, 0.2);

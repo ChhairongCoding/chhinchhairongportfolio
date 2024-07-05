@@ -4,6 +4,7 @@
   position: relative;
   z-index: -1;
   opacity: 20%;
+  bottom: 80px;
 }
 
 .buble {
