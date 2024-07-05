@@ -1,0 +1,20 @@
+.about {
+  width: 87%;
+  height: 100vh;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+}
+
+.about .boxImg {
+  width: 40%;
+}
+
+.about .boxImg img {
+  border: 2px solid black;
+  width: 250px;
+}
+
+.about .aboutContain {
+  width: 60%;
+}

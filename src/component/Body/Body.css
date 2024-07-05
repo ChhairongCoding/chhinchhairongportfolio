@@ -84,3 +84,8 @@
 .clr-blueSea:hover {
   scale: 1.1;
 }
+
+.contain-Main {
+  position: absolute;
+  z-index: 3;
+}

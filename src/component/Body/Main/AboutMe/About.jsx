@@ -1,23 +1,21 @@
 import "./About.css";
-import CardRight from "../../Card Right/CardRight";
-
-("./CardRight");
+import aboutImg from "./aboutImg/aboutImg.jpg";
 const Main = () => {
-  const Right = [
-    {
-      id: 1,
-      Head: "CHHIN CHHAIRONG",
-      p: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, similique. Quod fuga velit, natus obcaecati aperiam labore expedita recusandae tenetur impedit quaerat placeat, ipsam, quidem totam voluptates provident iusto inventore?",
-      about: "Who am I?",
-    },
-  ];
-
   return (
-    <div className="contain">
-      <div className="Right">
-        {Right.map((p) => {
-          return <CardRight {...p} key={p.id} />;
-        })}
+    <div>
+      <div className="about">
+        <div className="boxImg">
+          <img src={aboutImg} alt="" />
+        </div>
+        <div className="aboutContain">
+          <h2>About me</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+            hic quisquam inventore officiis voluptate veritatis excepturi
+            laborum consectetur quidem exercitationem. Reiciendis vitae
+            voluptate saepe, rerum ipsa earum perspiciatis ut ea.
+          </p>
+        </div>
       </div>
     </div>
   );
