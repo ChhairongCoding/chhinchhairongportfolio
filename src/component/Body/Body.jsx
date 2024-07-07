@@ -4,6 +4,7 @@ import Right from "./Main/Right/Right";
 import About from "./Main/AboutMe/About";
 import { DiCss3, DiHtml5, DiJavascript, DiReact } from "react-icons/di";
 import {} from "react-icons/di";
+import Project from "./Main/Project/Project";
 
 const Body = () => {
   return (
@@ -28,6 +29,7 @@ const Body = () => {
       </div>
       <div className="contain-Main">
         <About />
+        <Project />
       </div>
     </>
   );
