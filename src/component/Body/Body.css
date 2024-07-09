@@ -8,6 +8,13 @@
   align-items: center;
 }
 
+.Efect {
+  position: absolute;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
 .technology {
   width: 20%;
   background-color: rgb(255, 255, 255);
@@ -86,8 +93,15 @@
 }
 
 .contain-Main {
-  position: absolute;
+  position: relative;
   z-index: 3;
+  height: 100vh;
+}
+
+.project {
+  position: relative;
+  z-index: 3;
+  height: 100vh;
 }
 
 /* Hero left */
