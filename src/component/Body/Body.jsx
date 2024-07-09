@@ -5,6 +5,7 @@ import About from "./Main/About";
 import { DiCss3, DiHtml5, DiJavascript, DiReact } from "react-icons/di";
 import {} from "react-icons/di";
 import Project from "./Main/Project/Project";
+import Effect from "../Effect/Effect";
 
 const Body = () => {
   return (
@@ -12,6 +13,9 @@ const Body = () => {
       <div className="background">
         <Left />
         <Right />
+        <div className="Efect">
+          <Effect />
+        </div>
       </div>
       <div className="technology">
         <div className="marquee">
@@ -29,6 +33,8 @@ const Body = () => {
       </div>
       <div className="contain-Main">
         <About />
+      </div>
+      <div className="project">
         <Project />
       </div>
     </>
