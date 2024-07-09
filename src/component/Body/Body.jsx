@@ -1,7 +1,7 @@
 import "./Body.css";
-import Left from "./Main/HeroLeft/Left";
-import Right from "./Main/Right/Right";
-import About from "./Main/AboutMe/About";
+import Left from "./Main/Left";
+import Right from "./Main/Right";
+import About from "./Main/About";
 import { DiCss3, DiHtml5, DiJavascript, DiReact } from "react-icons/di";
 import {} from "react-icons/di";
 import Project from "./Main/Project/Project";
