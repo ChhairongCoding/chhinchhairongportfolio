@@ -21,9 +21,66 @@ body {
   position: relative;
 }
 
+@keyframes marquee {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 300px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes marqueeTop {
+  0% {
+    background-color: rgba(60, 121, 174, 0.5);
+    transform: translate(0px, 0px) rotate(0);
+  }
+  /* 25% {
+    background-color: rgba(158, 181, 202, 0.5);
+    left: 200px;
+    top: 0px;
+  } */
+  50% {
+    background-color: rgba(158, 181, 202, 0.5);
+    transform: translate(1200px, 100px) rotate(100deg);
+  }
+  75% {
+    background-color: rgba(60, 121, 174, 0.5);
+    transform: translate(500px, 800px) rotate(150deg);
+  }
+  100% {
+    background-color: rgba(60, 121, 174, 0.5);
+    transform: translate(-200px, -100px) rotate(0);
+  }
+  /* from {
+    transform: translate(-200px, -100px) rotate(0);
+  }
+  to {
+    transform: translate(200px, 100px) rotate(100deg);
+  } */
+}
+
 .boxBack {
-  position: fixed;
-  position: absolute;
+  position: relative;
   display: block;
   width: 300px;
   height: 300px;
@@ -32,14 +89,25 @@ body {
   top: 100px;
   left: 200px;
   filter: blur(100px);
+  animation-name: marquee;
+  animation-duration: 10s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
 }
 
 .boxBack:nth-child(5) {
-  display: block;
   position: fixed;
-  width: 200px;
-  height: 200px;
+  left: 0;
+  top: 0;
+  width: 500px;
+  height: 500px;
   background-color: rgba(60, 121, 174, 0.5);
+  animation-name: marqueeTop;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 .boxBack:nth-child(2) {
