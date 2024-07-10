@@ -2,7 +2,7 @@ import "../Body.css";
 import aboutImg from "../Images/aboutImg.jpg";
 const Main = () => {
   return (
-    <div>
+    <>
       <div className="about">
         <div className="boxImg">
           <div className="backImg">
@@ -30,7 +30,7 @@ const Main = () => {
           </p>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

@@ -35,11 +35,14 @@ const Project = () => {
   ];
 
   return (
-    <article>
-      {dataCard.map((p) => {
-        return <ProjectCard {...p} key={p.id} />;
-      })}
-    </article>
+    <>
+      <h2 className="pro">Project</h2>
+      <article>
+        {dataCard.map((p) => {
+          return <ProjectCard {...p} key={p.id} />;
+        })}
+      </article>
+    </>
   );
 };
 
