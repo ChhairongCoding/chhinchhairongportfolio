@@ -234,3 +234,10 @@
   line-height: 22px;
   text-align: justify;
 }
+
+/* Contact Me */
+
+.contactMe {
+  width: 100vw;
+  height: 100vh;
+}

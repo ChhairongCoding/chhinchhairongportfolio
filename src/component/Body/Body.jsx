@@ -5,6 +5,7 @@ import About from "./Main/About";
 import { DiCss3, DiHtml5, DiJavascript, DiReact } from "react-icons/di";
 import {} from "react-icons/di";
 import Project from "./Main/Project/Project";
+import ContactMe from "./Main/ContactMe";
 import Effect from "../Effect/Effect";
 
 const Body = () => {
@@ -36,6 +37,9 @@ const Body = () => {
       </div>
       <div className="project">
         <Project />
+      </div>
+      <div className="contactMe">
+        <ContactMe />
       </div>
     </>
   );
