@@ -1,11 +1,16 @@
-.background {
+.hero {
   width: 100vw;
   height: 100vh;
-  display: flex;
   position: relative;
-  z-index: 2;
-  margin: 0px auto;
+  background-color: black;
+}
+
+.mainHero {
+  height: 100vh;
   align-items: center;
+  display: flex;
+  margin: 0px auto;
+  z-index: 5;
 }
 
 .Efect {
@@ -109,10 +114,14 @@
 
 .project {
   align-content: center;
-  background-color: rgba(128, 128, 128, 0.2);
+  background-color: black;
   position: relative;
-  z-index: 3;
   height: 100vh;
+}
+
+.containProject {
+  position: relative;
+  z-index: 1;
 }
 
 /* Hero left */
@@ -159,13 +168,13 @@
 .rightImg {
   width: 40%;
   position: relative;
+  z-index: 5;
 }
 
 .rightImg .box img {
   width: 350px;
   left: 10px;
   top: 0px;
-  z-index: 1;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
@@ -240,4 +249,44 @@
 .contactMe {
   width: 100vw;
   height: 100vh;
+}
+
+.contact {
+  width: 100vw;
+  height: 50vh;
+  align-content: center;
+  text-align: center;
+}
+
+.contact h1 {
+  font: 36px "Bebas Neue";
+  color: white;
+}
+
+.contact h1 + h1 {
+  opacity: 100%;
+  color: white;
+  font: 56px "Bebas Neue";
+}
+
+.message {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  margin: 0px auto;
+  text-align: center;
+  display: flex;
+}
+
+.message .txtSend {
+  width: 50%;
+  padding-left: 90px;
+}
+
+.form {
+  width: 50%;
+}
+
+.form input {
+  margin: 10px 0px;
 }
