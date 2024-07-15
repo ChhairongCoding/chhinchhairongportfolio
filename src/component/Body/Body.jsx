@@ -11,12 +11,15 @@ import Effect from "../Effect/Effect";
 const Body = () => {
   return (
     <>
-      <div className="background">
-        <Left />
-        <Right />
-        <div className="Efect">
-          <Effect />
+      <div className="hero">
+        <div className="mainHero">
+          <Left />
+          <Right />
         </div>
+
+        {/* <div className="Efect">
+          <Effect />
+        </div> */}
       </div>
       <div className="technology">
         <div className="marquee">
@@ -36,7 +39,9 @@ const Body = () => {
         <About />
       </div>
       <div className="project">
-        <Project />
+        <div className="containProject">
+          <Project />
+        </div>
       </div>
       <div className="contactMe">
         <ContactMe />
